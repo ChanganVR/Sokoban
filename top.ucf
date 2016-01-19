@@ -1,0 +1,44 @@
+NET "clk" LOC=P55;
+
+NET "vsync" LOC=P15;
+NET "hsync" LOC=P16;
+
+NET "vga_b<0>" LOC=P17;
+NET "vga_b<1>" LOC=P21;
+
+NET "vga_g<0>" LOC=P26;
+NET "vga_g<1>" LOC=P22;
+NET "vga_g<2>" LOC=P23;
+
+NET "vga_r<0>" LOC=P27;
+NET "vga_r<1>" LOC=P29;
+NET "vga_r<2>" LOC=P24;
+
+NET "btn_in[0]" LOC=P57;
+NET "btn_in[1]" LOC=P61;
+NET "btn_in[2]" LOC=P62;
+NET "btn_in[3]" LOC=P66;
+NET "btn_in<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "btn_in<1>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "btn_in<2>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "btn_in<3>" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "anode[7]" LOC="P100";
+NET "anode[6]" LOC="P99";
+NET "anode[5]" LOC="P102";
+NET "anode[4]" LOC="P101";
+NET "anode[3]" LOC="P9";
+NET "anode[2]" LOC="P10";
+NET "anode[1]" LOC="P11";
+NET "anode[0]" LOC="P12";
+
+NET "segment[0]" LOC="P119";
+NET "segment[1]" LOC="P116";
+NET "segment[2]" LOC="P118";
+NET "segment[3]" LOC="P124";
+NET "segment[4]" LOC="P121";
+NET "segment[5]" LOC="P117";
+NET "segment[6]" LOC="P115";
+NET "segment[7]" LOC="P120";
+
+
