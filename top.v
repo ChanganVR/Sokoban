@@ -23,9 +23,7 @@ parameter dot = 4;//red
 parameter box = 3;//teal
 parameter road = 0;//black
 
-reg [2:0] dots [0:9][0:7];
-initial
-	dots = {
+reg [2:0] dots [0:9][0:7] = {
 3'd1,3'd1,3'd1,3'd1,3'd1,3'd1,3'd1,3'd1,
 3'd1,3'd1,3'd1,3'd2,3'd0,3'd1,3'd1,3'd1,
 3'd1,3'd0,3'd3,3'd0,3'd4,3'd4,3'd1,3'd1,
